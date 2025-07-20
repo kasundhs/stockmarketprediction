@@ -1,0 +1,7 @@
+yfinance
+tweepy
+vaderSentiment
+pyspark
+tensorflow
+pandas
+scikit-learn
