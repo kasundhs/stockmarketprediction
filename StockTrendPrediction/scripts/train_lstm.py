@@ -24,3 +24,6 @@ model.add(LSTM(50))
 model.add(Dense(1))
 model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(X, y, epochs=10, batch_size=32)
+
+# Save the trained model in Keras format
+model.save('results/lstm_model.h5')
