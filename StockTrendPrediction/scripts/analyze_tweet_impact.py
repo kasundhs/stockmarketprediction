@@ -6,7 +6,6 @@ import os
 sentiment_path = os.path.join('results', 'sentiment_output.csv')
 stock_path = os.path.join('data', 'stock_data.csv')
 
-# Load data
 sentiment_df = pd.read_csv(sentiment_path)
 stock_df = pd.read_csv(stock_path)
 
